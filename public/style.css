@@ -1,0 +1,57 @@
+body {
+    background-image: url(/images/zombie.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+      #wrapper {
+        /*height:     auto;       /* These two lines are used to fill the page 
+        /*min-height: 100%*/
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        background-color: aliceblue;
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+        border-radius: 5px;
+      }
+      #notes {
+        background-color: aliceblue;
+        float: right;
+        width: 30%;
+        border-radius: 5px;
+        
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: white;
+      }
+      input {
+        height: 36px;
+        font-size: 22px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 20px;
+      }
+

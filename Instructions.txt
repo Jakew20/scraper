@@ -1,0 +1,1 @@
+In order to launch. Be sure to open a terminal and run mongod. Then open the assighnment using node server
